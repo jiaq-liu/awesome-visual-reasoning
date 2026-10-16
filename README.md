@@ -1,6 +1,6 @@
 # Awesome Visual Reasoning
 
-A curated list of visual reasoning papers with multi-step reasoning trajectories. \* marks a training method inferred from the paper rather than stated.
+A curated list of visual reasoning papers with multi-step reasoning trajectories.
 
 ## Contents
 
@@ -47,6 +47,19 @@ A curated list of visual reasoning papers with multi-step reasoning trajectories
 
 ## Tool Use
 
+### Experience & Agent Skill
+
+| Paper | Date | Venue | Training | Code |
+| --- | --- | --- | --- | --- |
+| [VisualCoding](https://arxiv.org/abs/2610.14403) | 2026-10 | arXiv | Non-parametric | [GitHub](https://github.com/jiaq-liu/VisualCoding) ![Star](https://img.shields.io/github/stars/jiaq-liu/VisualCoding.svg?style=social&label=Star) |
+| [ViSkill](https://arxiv.org/abs/2610.12403) | 2026-10 | arXiv | Non-parametric + RL | [GitHub](https://github.com/ZJU-REAL/ViSkill) ![Star](https://img.shields.io/github/stars/ZJU-REAL/ViSkill.svg?style=social&label=Star) |
+| [EvolvingBrain](https://arxiv.org/abs/2610.20786) | 2026-10 | arXiv | Non-parametric | — |
+| [CwI](https://arxiv.org/abs/2608.11292) | 2026-08 | arXiv | Non-parametric | — |
+| [SPyCE](https://arxiv.org/abs/2607.13854) | 2026-07 | ACM MM 2026 | Non-parametric + SFT+RL | — |
+| [SkillOpt](https://arxiv.org/abs/2605.23904) | 2026-05 | arXiv | Non-parametric | [GitHub](https://github.com/microsoft/SkillOpt) ![Star](https://img.shields.io/github/stars/microsoft/SkillOpt.svg?style=social&label=Star) |
+| [XSkill](https://arxiv.org/abs/2603.12056) | 2026-03 | ICML 2026 | Non-parametric | [GitHub](https://github.com/XSkill-Agent/XSkill) ![Star](https://img.shields.io/github/stars/XSkill-Agent/XSkill.svg?style=social&label=Star) |
+| [Training-Free GRPO](https://arxiv.org/abs/2510.08191) | 2025-10 | arXiv | Non-parametric | [GitHub](https://github.com/TencentCloudADP/youtu-agent) ![Star](https://img.shields.io/github/stars/TencentCloudADP/youtu-agent.svg?style=social&label=Star) |
+
 ### Training-free / Test-time
 
 | Paper | Date | Venue | Training | Code |
@@ -71,10 +84,10 @@ A curated list of visual reasoning papers with multi-step reasoning trajectories
 | [MIRROR](https://arxiv.org/abs/2602.18746) | 2026-02 | arXiv | SFT | — |
 | [Simple o3](https://arxiv.org/abs/2508.12109) | 2025-08 | arXiv | SFT | — |
 | [TACO / LATTE](https://arxiv.org/abs/2412.05479) | 2024-12 | EMNLP 2025 | SFT | [GitHub](https://github.com/SalesforceAIResearch/LATTE) ![Star](https://img.shields.io/github/stars/SalesforceAIResearch/LATTE.svg?style=social&label=Star) |
-| [Visual CoT](https://arxiv.org/abs/2403.16999) | 2024-03 | NeurIPS 2024 D&B | SFT\* | [GitHub](https://github.com/deepcs233/Visual-CoT) ![Star](https://img.shields.io/github/stars/deepcs233/Visual-CoT.svg?style=social&label=Star) |
+| [Visual CoT](https://arxiv.org/abs/2403.16999) | 2024-03 | NeurIPS 2024 D&B | SFT | [GitHub](https://github.com/deepcs233/Visual-CoT) ![Star](https://img.shields.io/github/stars/deepcs233/Visual-CoT.svg?style=social&label=Star) |
 | [Chain-of-Spot](https://arxiv.org/abs/2403.12966) | 2024-03 | arXiv | SFT | [GitHub](https://github.com/dongyh20/Chain-of-Spot) ![Star](https://img.shields.io/github/stars/dongyh20/Chain-of-Spot.svg?style=social&label=Star) |
-| [CogCoM](https://arxiv.org/abs/2402.04236) | 2024-02 | ICLR 2025 | SFT\* | [GitHub](https://github.com/THUDM/CogCoM) ![Star](https://img.shields.io/github/stars/THUDM/CogCoM.svg?style=social&label=Star) |
-| [V\*](https://arxiv.org/abs/2312.14135) | 2023-12 | CVPR 2024 | SFT\* | [GitHub](https://github.com/penghao-wu/vstar) ![Star](https://img.shields.io/github/stars/penghao-wu/vstar.svg?style=social&label=Star) |
+| [CogCoM](https://arxiv.org/abs/2402.04236) | 2024-02 | ICLR 2025 | SFT | [GitHub](https://github.com/THUDM/CogCoM) ![Star](https://img.shields.io/github/stars/THUDM/CogCoM.svg?style=social&label=Star) |
+| [V\*](https://arxiv.org/abs/2312.14135) | 2023-12 | CVPR 2024 | SFT | [GitHub](https://github.com/penghao-wu/vstar) ![Star](https://img.shields.io/github/stars/penghao-wu/vstar.svg?style=social&label=Star) |
 | [LLaVA-Plus](https://arxiv.org/abs/2311.05437) | 2023-11 | ECCV 2024 | SFT | [GitHub](https://github.com/LLaVA-VL/LLaVA-Plus-Codebase) ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Plus-Codebase.svg?style=social&label=Star) |
 
 ### RL / SFT+RL
@@ -107,19 +120,6 @@ A curated list of visual reasoning papers with multi-step reasoning trajectories
 | [VTool-R1](https://arxiv.org/abs/2505.19255) | 2025-05 | ICLR 2026 | RL | [GitHub](https://github.com/VTOOL-R1/vtool-r1) ![Star](https://img.shields.io/github/stars/VTOOL-R1/vtool-r1.svg?style=social&label=Star) |
 | [Visual-ARFT](https://arxiv.org/abs/2505.14246) | 2025-05 | arXiv | RL | [GitHub](https://github.com/Liuziyu77/Visual-RFT) ![Star](https://img.shields.io/github/stars/Liuziyu77/Visual-RFT.svg?style=social&label=Star) |
 
-### Experience & Skill Libraries
-
-| Paper | Date | Venue | Training | Code |
-| --- | --- | --- | --- | --- |
-| [VisualCoding](https://arxiv.org/abs/2610.14403) | 2026-10 | arXiv | Non-parametric\* | [GitHub](https://github.com/jiaq-liu/VisualCoding) ![Star](https://img.shields.io/github/stars/jiaq-liu/VisualCoding.svg?style=social&label=Star) |
-| [ViSkill](https://arxiv.org/abs/2610.12403) | 2026-10 | arXiv | Non-parametric + RL | [GitHub](https://github.com/ZJU-REAL/ViSkill) ![Star](https://img.shields.io/github/stars/ZJU-REAL/ViSkill.svg?style=social&label=Star) |
-| [EvolvingBrain](https://arxiv.org/abs/2610.20786) | 2026-10 | arXiv | Non-parametric | — |
-| [CwI](https://arxiv.org/abs/2608.11292) | 2026-08 | arXiv | Non-parametric | — |
-| [SPyCE](https://arxiv.org/abs/2607.13854) | 2026-07 | ACM MM 2026 | Non-parametric + SFT+RL | — |
-| [SkillOpt](https://arxiv.org/abs/2605.23904) | 2026-05 | arXiv | Non-parametric | [GitHub](https://github.com/microsoft/SkillOpt) ![Star](https://img.shields.io/github/stars/microsoft/SkillOpt.svg?style=social&label=Star) |
-| [XSkill](https://arxiv.org/abs/2603.12056) | 2026-03 | ICML 2026 | Non-parametric | [GitHub](https://github.com/XSkill-Agent/XSkill) ![Star](https://img.shields.io/github/stars/XSkill-Agent/XSkill.svg?style=social&label=Star) |
-| [Training-Free GRPO](https://arxiv.org/abs/2510.08191) | 2025-10 | arXiv | Non-parametric | [GitHub](https://github.com/TencentCloudADP/youtu-agent) ![Star](https://img.shields.io/github/stars/TencentCloudADP/youtu-agent.svg?style=social&label=Star) |
-
 ## Model-generated Visual States
 
 ### Internal Re-attention
@@ -127,7 +127,7 @@ A curated list of visual reasoning papers with multi-step reasoning trajectories
 | Paper | Date | Venue | Training | Code |
 | --- | --- | --- | --- | --- |
 | [VGR](https://arxiv.org/abs/2506.11991) | 2025-06 | ICLR 2026 | SFT | — |
-| [v1 (Don't Look Only Once)](https://arxiv.org/abs/2505.18842) | 2025-05 | COLM 2026 | SFT\* | [GitHub](https://github.com/jun297/v1) ![Star](https://img.shields.io/github/stars/jun297/v1.svg?style=social&label=Star) |
+| [v1 (Don't Look Only Once)](https://arxiv.org/abs/2505.18842) | 2025-05 | COLM 2026 | SFT | [GitHub](https://github.com/jun297/v1) ![Star](https://img.shields.io/github/stars/jun297/v1.svg?style=social&label=Star) |
 
 ### Visual Generation
 
@@ -135,37 +135,37 @@ A curated list of visual reasoning papers with multi-step reasoning trajectories
 | --- | --- | --- | --- | --- |
 | [BRAID](https://arxiv.org/abs/2607.03748) | 2026-07 | arXiv | RL | [GitHub](https://github.com/NJU-RL/BRAID) ![Star](https://img.shields.io/github/stars/NJU-RL/BRAID.svg?style=social&label=Star) (code pending) |
 | [Omni-R1](https://arxiv.org/abs/2601.09536) | 2026-01 | ACL 2026 Findings | SFT+RL | [GitHub](https://github.com/ModalityDance/Omni-R1) ![Star](https://img.shields.io/github/stars/ModalityDance/Omni-R1.svg?style=social&label=Star) |
-| [ThinkMorph](https://arxiv.org/abs/2510.27492) | 2025-10 | ICLR 2026 | SFT\* | [GitHub](https://github.com/ThinkMorph/ThinkMorph) ![Star](https://img.shields.io/github/stars/ThinkMorph/ThinkMorph.svg?style=social&label=Star) |
+| [ThinkMorph](https://arxiv.org/abs/2510.27492) | 2025-10 | ICLR 2026 | SFT | [GitHub](https://github.com/ThinkMorph/ThinkMorph) ![Star](https://img.shields.io/github/stars/ThinkMorph/ThinkMorph.svg?style=social&label=Star) |
 | [MathCanvas](https://arxiv.org/abs/2510.14958) | 2025-10 | ACL 2026 | Pretraining+SFT | [GitHub](https://github.com/shiwk24/MathCanvas) ![Star](https://img.shields.io/github/stars/shiwk24/MathCanvas.svg?style=social&label=Star) |
 | [Uni-CoT](https://arxiv.org/abs/2508.05606) | 2025-08 | ICLR 2026 | Not stated | [GitHub](https://github.com/Fr0zenCrane/UniCoT) ![Star](https://img.shields.io/github/stars/Fr0zenCrane/UniCoT.svg?style=social&label=Star) |
 | [Thinking with Generated Images](https://arxiv.org/abs/2505.22525) | 2025-05 | arXiv | Not stated | [GitHub](https://github.com/GAIR-NLP/thinking-with-generated-images) ![Star](https://img.shields.io/github/stars/GAIR-NLP/thinking-with-generated-images.svg?style=social&label=Star) |
 | [Visual Planning](https://arxiv.org/abs/2505.11409) | 2025-05 | ICLR 2026 | RL | [GitHub](https://github.com/yix8/VisualPlanning) ![Star](https://img.shields.io/github/stars/yix8/VisualPlanning.svg?style=social&label=Star) |
 | [BAGEL](https://arxiv.org/abs/2505.14683) | 2025-05 | arXiv | Pretraining | [GitHub](https://github.com/ByteDance-Seed/Bagel) ![Star](https://img.shields.io/github/stars/ByteDance-Seed/Bagel.svg?style=social&label=Star) |
-| [MVoT](https://arxiv.org/abs/2501.07542) | 2025-01 | ICML 2025 | SFT\* | — |
+| [MVoT](https://arxiv.org/abs/2501.07542) | 2025-01 | ICML 2025 | SFT | — |
 | [Chain of Images](https://arxiv.org/abs/2311.09241) | 2023-11 | arXiv | Not stated | [GitHub](https://github.com/GraphPKU/CoI) ![Star](https://img.shields.io/github/stars/GraphPKU/CoI.svg?style=social&label=Star) |
 
 ### Latent Visual Reasoning
 
 | Paper | Date | Venue | Training | Code |
 | --- | --- | --- | --- | --- |
-| [ReaLVR](https://arxiv.org/abs/2609.34563) | 2026-09 | arXiv | RL + evidence supervision\* | — |
-| [RIS](https://arxiv.org/abs/2605.07106) | 2026-05 | arXiv | SFT\* | — |
+| [ReaLVR](https://arxiv.org/abs/2609.34563) | 2026-09 | arXiv | RL + evidence supervision | — |
+| [RIS](https://arxiv.org/abs/2605.07106) | 2026-05 | arXiv | SFT | — |
 | [Visual Latents Know More Than They Say](https://arxiv.org/abs/2605.02735) | 2026-05 | arXiv | Test-time adaptation | — |
-| [DLR](https://arxiv.org/abs/2604.07518) | 2026-04 | arXiv | Includes RL\* | — |
+| [DLR](https://arxiv.org/abs/2604.07518) | 2026-04 | arXiv | Includes RL | — |
 | [LanteRn](https://arxiv.org/abs/2603.25629) | 2026-03 | ICLR 2026 Workshop | SFT+RL | — |
 | [CrystaL](https://arxiv.org/abs/2602.20980) | 2026-02 | arXiv | Single-stage training | — |
 | [VaLR](https://arxiv.org/abs/2602.04476) | 2026-02 | ICML 2026 | Not stated | [GitHub](https://github.com/rootyjeon/Vision-aligned-Latent-Reasoning) ![Star](https://img.shields.io/github/stars/rootyjeon/Vision-aligned-Latent-Reasoning.svg?style=social&label=Star) (code pending) |
-| [LIVR](https://arxiv.org/abs/2512.21218) | 2025-12 | CVPR 2026 | SFT\* | — |
+| [LIVR](https://arxiv.org/abs/2512.21218) | 2025-12 | CVPR 2026 | SFT | — |
 | [SkiLa](https://arxiv.org/abs/2512.16584) | 2025-12 | arXiv | Not stated | [GitHub](https://github.com/TungChintao/SkiLa) ![Star](https://img.shields.io/github/stars/TungChintao/SkiLa.svg?style=social&label=Star) |
 | [DMLR](https://arxiv.org/abs/2512.12623) | 2025-12 | ICLR 2026 Workshop | Test-time adaptation | — |
 | [Monet](https://arxiv.org/abs/2511.21395) | 2025-11 | CVPR 2026 | SFT+RL | [GitHub](https://github.com/NOVAglow646/Monet) ![Star](https://img.shields.io/github/stars/NOVAglow646/Monet.svg?style=social&label=Star) |
-| [CoVT](https://arxiv.org/abs/2511.19418) | 2025-11 | ECCV 2026 | SFT\* | [GitHub](https://github.com/Wakals/CoVT) ![Star](https://img.shields.io/github/stars/Wakals/CoVT.svg?style=social&label=Star) |
+| [CoVT](https://arxiv.org/abs/2511.19418) | 2025-11 | ECCV 2026 | SFT | [GitHub](https://github.com/Wakals/CoVT) ![Star](https://img.shields.io/github/stars/Wakals/CoVT.svg?style=social&label=Star) |
 | [Latent Sketchpad](https://arxiv.org/abs/2510.24514) | 2025-10 | arXiv | Not stated | [GitHub](https://github.com/hwanyu112/Latent-Sketchpad) ![Star](https://img.shields.io/github/stars/hwanyu112/Latent-Sketchpad.svg?style=social&label=Star) |
 | [DeepSketcher](https://arxiv.org/abs/2509.25866) | 2025-09 | CVPR 2026 Findings | Not stated | [GitHub](https://github.com/MiliLab/DeepSketcher) ![Star](https://img.shields.io/github/stars/MiliLab/DeepSketcher.svg?style=social&label=Star) |
-| [LVR](https://arxiv.org/abs/2509.24251) | 2025-09 | ICLR 2026 | SFT\*+RL | [GitHub](https://github.com/VincentLeebang/lvr) ![Star](https://img.shields.io/github/stars/VincentLeebang/lvr.svg?style=social&label=Star) |
+| [LVR](https://arxiv.org/abs/2509.24251) | 2025-09 | ICLR 2026 | SFT+RL | [GitHub](https://github.com/VincentLeebang/lvr) ![Star](https://img.shields.io/github/stars/VincentLeebang/lvr.svg?style=social&label=Star) |
 | [MCOUT](https://arxiv.org/abs/2508.12587) | 2025-08 | NeurIPS 2025 Workshop | Not stated | [GitHub](https://github.com/Hanhpt23/OmniMod) ![Star](https://img.shields.io/github/stars/Hanhpt23/OmniMod.svg?style=social&label=Star) |
 | [Mirage](https://arxiv.org/abs/2506.17218) | 2025-06 | CVPR 2026 | SFT+RL | [GitHub](https://github.com/UMass-Embodied-AGI/Mirage) ![Star](https://img.shields.io/github/stars/UMass-Embodied-AGI/Mirage.svg?style=social&label=Star) |
-| [AURORA](https://arxiv.org/abs/2412.03548) | 2024-12 | CVPR 2025 | SFT\* | [GitHub](https://github.com/mahtabbigverdi/Aurora) ![Star](https://img.shields.io/github/stars/mahtabbigverdi/Aurora.svg?style=social&label=Star) (code pending) |
+| [AURORA](https://arxiv.org/abs/2412.03548) | 2024-12 | CVPR 2025 | SFT | [GitHub](https://github.com/mahtabbigverdi/Aurora) ![Star](https://img.shields.io/github/stars/mahtabbigverdi/Aurora.svg?style=social&label=Star) (code pending) |
 
 ## Supervision & Diagnosis
 
