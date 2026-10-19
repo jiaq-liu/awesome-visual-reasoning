@@ -267,3 +267,4 @@ A curated list of visual reasoning papers with multi-step reasoning trajectories
 | [Multimodal CoT Survey](https://arxiv.org/abs/2503.12605) | 2025-03 | arXiv | [GitHub](https://github.com/yaotingwangofficial/Awesome-MCoT) ![Star](https://img.shields.io/github/stars/yaotingwangofficial/Awesome-MCoT.svg?style=social&label=Star) |
 | [The Latent Space](https://arxiv.org/abs/2604.02029) | 2026-04 | arXiv | [GitHub](https://github.com/YU-deep/Awesome-Latent-Space) ![Star](https://img.shields.io/github/stars/YU-deep/Awesome-Latent-Space.svg?style=social&label=Star) |
 | [IG-CoT: Revealing the Seen, Imagining the Beyond](https://aclanthology.org/2026.acl-long.2087/) | 2026 | ACL 2026 | [GitHub](https://github.com/dddraxxx/Awesome-Image-Grounded-CoT) ![Star](https://img.shields.io/github/stars/dddraxxx/Awesome-Image-Grounded-CoT.svg?style=social&label=Star) |
+
