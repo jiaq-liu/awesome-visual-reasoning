@@ -19,6 +19,8 @@ A curated list of visual reasoning papers with multi-step reasoning trajectories
 
 ## Taxonomy
 
+![Visual Reasoning taxonomy tree](taxonomy_tree.png)
+
 Use three independent axes to navigate this list. Section placement describes the task or contribution; the adaptation column describes how a method improves its capabilities.
 
 | Axis | Categories | How to read it |
@@ -26,21 +28,6 @@ Use three independent axes to navigate this list. Section placement describes th
 | Task / contribution | Understanding & reasoning; generation & editing; unified models; agent skills & planning; supervision, analysis, and resources | What problem does the work address? |
 | Reasoning mechanism | Text CoT; grounding; tool calls / executable code; internal re-attention; generated intermediate images; latent visual states | What carries the intermediate reasoning? |
 | Adaptation | Parametric; non-parametric; hybrid; inference-only; unspecified | What changes when the method improves? |
-
-```mermaid
-flowchart LR
-    R[Visual Reasoning] --> U[Understanding & Reasoning]
-    R --> G[Generation & Editing]
-    R --> M[Unified Understanding & Generation]
-    R --> A[Agent Skills & Planning]
-    R --> E[Supervision, Diagnosis & Resources]
-    U --> T[Text CoT & Grounding]
-    U --> X[Tool-assisted Reasoning]
-    U --> V[Internal Visual Reasoning]
-    V --> I[Re-attention]
-    V --> P[Generated Intermediate Images]
-    V --> L[Latent Visual States]
-```
 
 **Adaptation labels** refer to the proposed method, relative to its starting models:
 
@@ -56,7 +43,7 @@ These labels describe adaptation, not architecture: inference-only and non-param
 
 **Generated images can serve different roles.** Here, [ThinkMorph](https://arxiv.org/abs/2510.27492) and [MathCanvas](https://arxiv.org/abs/2510.14958) sit under understanding because their images support reasoning. [Uni-CoT](https://arxiv.org/abs/2508.05606) and [Thinking with Generated Images](https://arxiv.org/abs/2505.22525) sit under generation because they evaluate image generation or editing. [Visual Planning](https://arxiv.org/abs/2505.11409) sits under planning because its image sequences encode plans. Placement is an editorial guide to the main contribution; capabilities can overlap across sections.
 
-Adaptation labels are derived from the listed training metadata; ambiguous cases remain unspecified. This reorganization is not a full audit of every paper's training setup, venue, or release status. The earlier static diagrams remain available as [PNG](taxonomy_tree.png) and [SVG](taxonomy_tree.svg); they show the previous mechanism-based organization.
+Adaptation labels are derived from the listed training metadata; ambiguous cases remain unspecified. This reorganization is not a full audit of every paper's training setup, venue, or release status. The figure above summarizes reasoning mechanisms; the sections below additionally organize papers by task and adaptation.
 
 ## Visual Understanding & Reasoning
 
